@@ -1,9 +1,10 @@
 # Deploying a multi-tier web application on AWS Cloud
 - EC2 instances
-     I) RabbitMQ
-     II) Memcached
-     III) MYSQL - Mariadb server
-     IV) Tomcat - application server
+     - I) RabbitMQ
+     - II) Memcached
+     - III) MYSQL - Mariadb server
+     - IV) Tomcat - application server
+   - Note: EC2 instances are provisioned automatically with user data scripts
 - Route 53 
     For a private DNS hosting zone for the backend services. This will be referred to in application properties of tomcat web    application to communicate with the - backend
   - ELB 
